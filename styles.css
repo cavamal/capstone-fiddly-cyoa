@@ -1,0 +1,65 @@
+* {
+    font-family: 'Delius', cursive;
+    color: grey;
+    font-size:large;
+}
+
+body {
+    width: 80%;
+    height: 300%;
+    margin: auto;
+}
+
+.orb-image {
+    margin-top: 10em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap:wrap;
+
+}
+
+body.opening-page{
+    background-color: black;
+}
+
+div.orb-background-title{
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+div.pondering-text-container, div.descriptive-text-container {
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.pondering-text-spacer{
+    margin-top:20em;
+}
+
+.pondering-text-spacer-longpause {
+    margin-top:40em;
+}
+
+.pondering-text-spacer-shortpause {
+    margin-top: 10em;
+}
+
+
+div.orb-background-title > h1 {
+    font-family: 'Eagle Lake', cursive;
+    text-transform:uppercase;
+    text-align:center;
+    font-size:10em;
+}
+div.orb-background-title > h2 {
+    font-family: 'Eagle Lake', cursive;
+    font-size:smaller;
+    text-align:center;
+}
+
+div.navbar {
+    margin-top: 80%;
+    margin-bottom: 50%;
+}
