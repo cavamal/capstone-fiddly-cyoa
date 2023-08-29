@@ -20,9 +20,10 @@ body {
 
 }
 
-body.opening-page{
+body.opening-page , body.scene-page {
     background-color: black;
 }
+
 
 div.orb-background-title{
     margin-top: 50%;
@@ -34,15 +35,15 @@ div.pondering-text-container, div.descriptive-text-container {
     margin-right:30%;
 }
 
-.pondering-text-spacer{
+.descriptive-text-spacer , .pondering-text-spacer{
     margin-top:20em;
 }
 
-.pondering-text-spacer-longpause {
+.descriptive-text-spacer-longpause , .pondering-text-spacer-longpause {
     margin-top:40em;
 }
 
-.pondering-text-spacer-shortpause {
+.descriptive-text-spacer-shortpause , .pondering-text-spacer-shortpause {
     margin-top: 10em;
 }
 
@@ -61,5 +62,11 @@ div.orb-background-title > h2 {
 
 div.navbar {
     margin-top: 80%;
-    margin-bottom: 50%;
+    margin-bottom: 2em;
+    display:flex;
+    justify-content: right;
+}
+
+div.navbar > nav > a {
+    margin-left: 2em;
 }
